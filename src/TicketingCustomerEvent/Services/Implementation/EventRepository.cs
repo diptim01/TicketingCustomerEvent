@@ -11,13 +11,21 @@ namespace TicketingCustomerEvent.Services.Implementation
     public class EventRepository : IEventRepository
     {
         private readonly IEnumerable<Event> _events;
+
         public EventRepository()
         {
             _events = Event.GetEvents();
         }
+
         public Task<IEnumerable<Event>> FindEventsInCustomerCity(Customer customer)
         {
-            return Task.FromResult(_events.Where(x => x.City != null && x.City.Equals(customer.City, StringComparison.OrdinalIgnoreCase)));
+            if (customer == null)
+                throw new ArgumentException("Customer cannot be null");
+            
+            var retrievedEvents = _events.Where(x =>
+                x.City != null && x.City.Equals(customer.City, StringComparison.OrdinalIgnoreCase));
+            
+            return Task.FromResult(retrievedEvents);
         }
 
         public Task<IEnumerable<Event>> GetClosestEventsInCities(Customer customer, int numbers)

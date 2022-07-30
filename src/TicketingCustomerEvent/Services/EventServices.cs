@@ -13,9 +13,14 @@ namespace TicketingCustomerEvent.Services
         {
             _eventRepository = eventRepository;
         }
-        
-        public async Task<IEnumerable<Event>> GetCustomerEvents(Customer searchedCustomer) => await _eventRepository.FindEventsInCustomerCity(searchedCustomer);
-        
+
+        public async Task<IEnumerable<Event>> GetCustomerEvents(Customer searchedCustomer)
+        {
+           var events = await _eventRepository.FindEventsInCustomerCity(searchedCustomer);
+
+           return events;
+        }
+
         public async Task<IEnumerable<Event>> RetrieveSpecifiedClosestEventsInCities(Customer searchedCustomer, int numbers) => await _eventRepository.GetClosestEventsInCities(searchedCustomer, numbers);
     }
 }

@@ -1,6 +1,8 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e02f04c0_002D208d_002D4417_002D826e_002D17fbb58d2d99/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetCustomerEvents_ShouldReturnEmptyEvent_WhenNoCustomerCityExist" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::738BE11E-B806-403D-A3E5-0AD3DA4E0245::net6.0::TicketingCustomerEvent.Unit.EventServiceTest.GetCustomerEvents_ShouldReturnEmptyEvent_WhenNoCustomerCityExist&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::738BE11E-B806-403D-A3E5-0AD3DA4E0245::net6.0::TicketingCustomerEvent.Unit.EventServiceTest.GetCustomerEvents_ShouldReturnEvent_WhenCustomerCityExist&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::738BE11E-B806-403D-A3E5-0AD3DA4E0245::net6.0::TicketingCustomerEvent.Unit.EventRepositoryTest.FindEventsInCustomerCity_ShouldReturnEmpty_WhenCityNotExist&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::738BE11E-B806-403D-A3E5-0AD3DA4E0245::net6.0::TicketingCustomerEvent.Unit.EventRepositoryTest.FindEventsInCustomerCity_ShouldThrow_WhenCustomerIsNull&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
