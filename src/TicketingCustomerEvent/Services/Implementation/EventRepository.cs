@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using TicketingCustomerEvent.Models;
 using TicketingCustomerEvent.Services.Interface;
 
@@ -14,12 +15,12 @@ namespace TicketingCustomerEvent.Services.Implementation
         {
             _events = Event.GetEvents();
         }
-        public IEnumerable<Event> FindEventsInCustomerCity(Customer customer)
+        public Task<IEnumerable<Event>> FindEventsInCustomerCity(Customer customer)
         {
-            return _events.Where(x => x.City != null && x.City.Equals(customer.City, StringComparison.OrdinalIgnoreCase));
+            return Task.FromResult(_events.Where(x => x.City != null && x.City.Equals(customer.City, StringComparison.OrdinalIgnoreCase)));
         }
 
-        public IEnumerable<Event> GetClosestEventsInCities(Customer customer, int numbers)
+        public Task<IEnumerable<Event>> GetClosestEventsInCities(Customer customer, int numbers)
         {
             Dictionary<Event, int> eventDistance = new();
 
@@ -31,7 +32,7 @@ namespace TicketingCustomerEvent.Services.Implementation
 
             var fiveClosestEvents = eventDistance.OrderBy(x => x.Value).Take(numbers);
 
-            return fiveClosestEvents.Select(x => x.Key);
+            return Task.FromResult(fiveClosestEvents.Select(x => x.Key));
         }
     }
 }

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using TicketingCustomerEvent.Models;
 using TicketingCustomerEvent.Services.Interface;
 
@@ -13,8 +14,8 @@ namespace TicketingCustomerEvent.Services
             _eventRepository = eventRepository;
         }
         
-        public IEnumerable<Event> GetCustomerEvents(Customer searchedCustomer) => _eventRepository.FindEventsInCustomerCity(searchedCustomer);
+        public async Task<IEnumerable<Event>> GetCustomerEvents(Customer searchedCustomer) => await _eventRepository.FindEventsInCustomerCity(searchedCustomer);
         
-        public IEnumerable<Event> RetrieveSpecifiedClosestEventsInCities(Customer searchedCustomer, int numbers) => _eventRepository.GetClosestEventsInCities(searchedCustomer, numbers);
+        public async Task<IEnumerable<Event>> RetrieveSpecifiedClosestEventsInCities(Customer searchedCustomer, int numbers) => await _eventRepository.GetClosestEventsInCities(searchedCustomer, numbers);
     }
 }

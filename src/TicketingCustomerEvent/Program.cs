@@ -17,7 +17,7 @@ Customer customer = new()
     
 //Task 1: I prefer to insolate the calls and use for a single customer
 var eventManager = new EventServices(new EventRepository());
-var @events = eventManager.GetCustomerEvents(customer);
+var @events = await eventManager.GetCustomerEvents(customer);
 foreach (var @event in events)
 {
     //Task 2
@@ -26,7 +26,7 @@ foreach (var @event in events)
 }
 
 Console.WriteLine("******Task2*********");
-var fiveClosestevents = eventManager.RetrieveSpecifiedClosestEventsInCities(customer, 5);
+var fiveClosestevents = await eventManager.RetrieveSpecifiedClosestEventsInCities(customer, 5);
 
 foreach (var @event in fiveClosestevents)
 {
