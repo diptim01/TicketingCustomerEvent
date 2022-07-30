@@ -19,12 +19,12 @@ namespace TicketingCustomerEvent.Services
             return (AlphebiticalDistance(e.City, "") + AlphebiticalDistance(e.Name, "")) / 10;
         }
 
-        public static int GetDistance(string fromCity, string toCity)
+        public static int GetDistance(string? fromCity, string toCity)
         {
             return AlphebiticalDistance(fromCity, toCity);
         }
 
-        private static int AlphebiticalDistance(string s, string t)
+        private static int AlphebiticalDistance(string? s, string t)
         {
             var result = 0;
             var i = 0;

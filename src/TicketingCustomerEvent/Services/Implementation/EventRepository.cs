@@ -42,5 +42,6 @@ namespace TicketingCustomerEvent.Services.Implementation
 
             return Task.FromResult(fiveClosestEvents.Select(x => x.Key));
         }
+
     }
 }
