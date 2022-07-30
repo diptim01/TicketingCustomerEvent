@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Oladipo.Alokan/RiderProjects/TicketingCustomerEvent/TicketingCustomerEvent/TicketingCustomerEvent.csproj",
+      "projectUniqueName": "/Users/Oladipo.Alokan/RiderProjects/TicketingCustomerEvent/src/TicketingCustomerEvent/TicketingCustomerEvent.csproj",
       "projectName": "TicketingCustomerEvent",
-      "projectPath": "/Users/Oladipo.Alokan/RiderProjects/TicketingCustomerEvent/TicketingCustomerEvent/TicketingCustomerEvent.csproj",
+      "projectPath": "/Users/Oladipo.Alokan/RiderProjects/TicketingCustomerEvent/src/TicketingCustomerEvent/TicketingCustomerEvent.csproj",
       "packagesPath": "/Users/Oladipo.Alokan/.nuget/packages/",
-      "outputPath": "/Users/Oladipo.Alokan/RiderProjects/TicketingCustomerEvent/TicketingCustomerEvent/obj/",
+      "outputPath": "/Users/Oladipo.Alokan/RiderProjects/TicketingCustomerEvent/src/TicketingCustomerEvent/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
