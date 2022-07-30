@@ -22,5 +22,9 @@ namespace TicketingCustomerEvent.Services
         }
 
         public async Task<IEnumerable<Event>> RetrieveSpecifiedClosestEventsInCities(Customer searchedCustomer, int numbers) => await _eventRepository.GetClosestEventsInCities(searchedCustomer, numbers);
+        
+        public async Task<IEnumerable<Event>> RetrieveClosestEventsWithBirthdays(Customer searchedCustomer, int numbers) => 
+            await _eventRepository.GetClosestBirthdayWithEvents(searchedCustomer, numbers);
+
     }
 }

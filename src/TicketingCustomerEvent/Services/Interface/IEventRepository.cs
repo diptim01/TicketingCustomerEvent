@@ -9,5 +9,6 @@ namespace TicketingCustomerEvent.Services.Interface
     {
         Task<IEnumerable<Event>> FindEventsInCustomerCity(Customer customer);
         Task<IEnumerable<Event>> GetClosestEventsInCities(Customer customer, int numbers);
+        Task<IEnumerable<Event>> GetClosestBirthdayWithEvents(Customer customer, int numbers);
     }
 }

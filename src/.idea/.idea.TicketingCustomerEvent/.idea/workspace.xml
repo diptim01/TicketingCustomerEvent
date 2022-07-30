@@ -8,7 +8,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="Complete repository and services test" />
+    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="readme added">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TicketingCustomerEvent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicketingCustomerEvent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Models/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Models/Customer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Models/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Models/Event.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Services/EventServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/EventServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Services/Implementation/EventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/Implementation/EventRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Services/Interface/IEventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/Interface/IEventRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/TicketingCustomerEvent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/TicketingCustomerEvent.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/TicketingCustomerEvent.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/TicketingCustomerEvent.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/ref/TicketingCustomerEvent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/ref/TicketingCustomerEvent.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/ref/TicketingCustomerEvent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/ref/TicketingCustomerEvent.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventRepositoryTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventRepositoryTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.Test.Unit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.Test.Unit.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.Test.Unit.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.Test.Unit.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/ref/TicketingCustomerEvent.Test.Unit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/ref/TicketingCustomerEvent.Test.Unit.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/ref/TicketingCustomerEvent.Test.Unit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/ref/TicketingCustomerEvent.Test.Unit.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +114,7 @@
       <workItem from="1659167824329" duration="245000" />
       <workItem from="1659168089347" duration="65000" />
       <workItem from="1659168172573" duration="6739000" />
-      <workItem from="1659178615034" duration="2433000" />
+      <workItem from="1659178615034" duration="6465000" />
     </task>
     <task id="LOCAL-00001" summary="structure code">
       <created>1659168271434</created>
@@ -133,11 +158,131 @@
       <option name="project" value="LOCAL" />
       <updated>1659181121446</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="readme added">
+      <created>1659181277307</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659181277307</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="220" />
+    <coverage-tree-state>
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 33% 117/174" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 33% 117/174" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 33% 117/174" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 33% 117/174" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 55% 39/87" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 33% 117/174" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 55% 39/87" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Models 63% 6/16" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 33% 117/174" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 55% 39/87" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Models 63% 6/16" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Event 70% 3/10" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 33% 117/174" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 55% 39/87" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Models 63% 6/16" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Event 70% 3/10" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Name 100% 0/2" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 33% 117/174" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 55% 39/87" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Models 63% 6/16" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Customer 50% 3/6" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 33% 117/174" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 55% 39/87" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Models 63% 6/16" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Customer 50% 3/6" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="City 100% 0/2" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 33% 117/174" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 55% 39/87" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Models 63% 6/16" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Customer 50% 3/6" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Name 50% 1/2" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 33% 117/174" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 55% 39/87" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="UtilManager 0% 5/5" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 33% 117/174" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 55% 39/87" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="UtilManager 0% 5/5" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="SortEventsByParams(IEnumerable&lt;Event&gt;,string,bool) 0% 5/5" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 33% 117/174" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 41% 69/117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Program 0% 30/30" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
+      <select />
+    </coverage-tree-state>
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
@@ -163,7 +308,8 @@
     <MESSAGE value="FindEventsInCityTest included" />
     <MESSAGE value="dll missing" />
     <MESSAGE value="Complete repository and services test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete repository and services test" />
+    <MESSAGE value="readme added" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

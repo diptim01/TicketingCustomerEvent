@@ -7,5 +7,6 @@
     &lt;TestId&gt;xUnit::738BE11E-B806-403D-A3E5-0AD3DA4E0245::net6.0::TicketingCustomerEvent.Unit.EventRepositoryTest.FindEventsInCustomerCity_ShouldThrow_WhenCustomerIsNull&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::738BE11E-B806-403D-A3E5-0AD3DA4E0245::net6.0::TicketingCustomerEvent.Unit.EventRepositoryTest.GetClosestEventsInCities_ShouldReturnFiveClosestEvents_WhenCustomerCityExist&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::738BE11E-B806-403D-A3E5-0AD3DA4E0245::net6.0::TicketingCustomerEvent.Unit.EventRepositoryTest.GetClosestEventsInCities_ShouldReturnNoClosestEvents_WhenNoCustomerCityExist&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::738BE11E-B806-403D-A3E5-0AD3DA4E0245::net6.0::TicketingCustomerEvent.Unit.EventRepositoryTest.GetClosestEventsWithBirthday_ShouldReturnClosestBirthdayEvents_WhenCustomerCityExist&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
