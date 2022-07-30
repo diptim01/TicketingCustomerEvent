@@ -10,6 +10,7 @@
 using System;
 using System.Reflection;
 
+[assembly: System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute()]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TicketingCustomerEvent.Test.Unit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
