@@ -8,20 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TicketingCustomerEvent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicketingCustomerEvent/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Services/Implementation/EventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/Implementation/EventRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Services/WorkingTemplateGiven.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/WorkingTemplateGiven.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventRepositoryTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventRepositoryTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventServiceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventServiceTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.Test.Unit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.Test.Unit.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.Test.Unit.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.Test.Unit.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/ref/TicketingCustomerEvent.Test.Unit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/ref/TicketingCustomerEvent.Test.Unit.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/ref/TicketingCustomerEvent.Test.Unit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/ref/TicketingCustomerEvent.Test.Unit.dll" afterDir="false" />
-    </list>
+    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="Complete repository and services test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +19,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/Oladipo.Alokan/RiderProjects/TicketingCustomerEvent/src/TicketingCustomerEvent/Models/Customer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2Cef8vcSVc4HGLxTCUFukNmjeDH" />
@@ -101,7 +89,7 @@
       <workItem from="1659167824329" duration="245000" />
       <workItem from="1659168089347" duration="65000" />
       <workItem from="1659168172573" duration="6739000" />
-      <workItem from="1659178615034" duration="2057000" />
+      <workItem from="1659178615034" duration="2433000" />
     </task>
     <task id="LOCAL-00001" summary="structure code">
       <created>1659168271434</created>
@@ -138,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659178531529</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Complete repository and services test">
+      <created>1659181121446</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659181121446</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +162,8 @@
     <MESSAGE value="added exluded file" />
     <MESSAGE value="FindEventsInCityTest included" />
     <MESSAGE value="dll missing" />
-    <option name="LAST_COMMIT_MESSAGE" value="dll missing" />
+    <MESSAGE value="Complete repository and services test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete repository and services test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -239,15 +235,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/TicketingCustomerEvent/Services/Implementation/EventRepository.cs</url>
-          <line>43</line>
+          <line>40</line>
           <properties documentPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/Implementation/EventRepository.cs" initialLine="40" containingFunctionPresentation="method 'GetClosestEventsInCities'">
             <startOffsets>
-              <option value="1436" />
-              <option value="1487" />
+              <option value="1321" />
+              <option value="1372" />
             </startOffsets>
             <endOffsets>
-              <option value="1510" />
-              <option value="1494" />
+              <option value="1395" />
+              <option value="1379" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
