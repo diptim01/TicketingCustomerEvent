@@ -22,4 +22,13 @@ WorkingTemplateGiven.AddToEmail(customer, @event);
 
 By looping through each events and sending to customer. We could improve the speed by multithreading the email calls
 
+> What is the expected output if we only have the client John Smith?
+
+It will only send mail for events in John's city. 
+
+> Do you believe there is a way to improve the code you first wrote?
+
+Sure, we could use a database to store the event which makes it easier to fetch in future occurrence. We could also
+use **Parallel.ForEach** to send the mail on multiple thread based on the system processor & environment.
+
 

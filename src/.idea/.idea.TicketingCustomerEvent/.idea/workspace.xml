@@ -8,9 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="first question answered">
+    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="emojis trial">
       <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <workItem from="1659168089347" duration="65000" />
       <workItem from="1659168172573" duration="6739000" />
       <workItem from="1659178615034" duration="7860000" />
-      <workItem from="1659294236145" duration="787000" />
+      <workItem from="1659294236145" duration="1121000" />
     </task>
     <task id="LOCAL-00001" summary="structure code">
       <created>1659168271434</created>
@@ -164,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659294808319</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="emojis trial">
+      <created>1659295109052</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659295109052</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +245,8 @@
     <MESSAGE value="Date checks with events" />
     <MESSAGE value="excluded code coverage on test" />
     <MESSAGE value="first question answered" />
-    <option name="LAST_COMMIT_MESSAGE" value="first question answered" />
+    <MESSAGE value="emojis trial" />
+    <option name="LAST_COMMIT_MESSAGE" value="emojis trial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
