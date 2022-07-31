@@ -46,5 +46,44 @@ use **Parallel.ForEach** to send the mail on multiple thread based on the system
 the other cities on the list?
 
 Create a dictionary with Events as key and distance as values. 
-Then afterwards get the distance for each events relative to the customer's city. Since we have it all in 
-a hashmap, we could sort by ascending order 
+Then afterwards get the distance for each events relative to the customer's city. There was an method implementation
+that was provided to calculate the distance between cities.
+
+> How would you get the 5 closest events and how would you send them to the client in an
+email?
+
+Since we have the events and their respective distance from the customer's city in a hashmap, 
+we could sort in ascending order and pick the first 5 value and call the addToEmail endpoint.
+
+
+```
+var fiveClosestEvents = await eventManager.RetrieveSpecifiedClosestEventsInCities(customer, 5);
+var closestEvents = fiveClosestEvents as Event[] ?? fiveClosestEvents.ToArray();
+
+foreach (var @event in closestEvents)
+{
+    WorkingTemplateGiven.AddToEmail(customer, @event);
+}
+
+```
+
+> What is the expected output if we only have the client John Smith?
+
+It will only print out the 5 closest cities to the customer in ascending order.
+
+> Do you believe there is a way to improve the code you first wrote?
+
+With the use of clean architecture to abstract the implementation logic for separation 
+of concern. I could also connect to the database for further optimization as opposed
+to the choice of data structure utilized.
+
+
+-----------------
+----------------
+
+#Part III
+
+> If the GetDistance method is an API call which could fail or is too expensive, how will u
+improve the code written in 2? Write the code.
+
+

@@ -8,7 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="Completed part I">
+    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="Remove delimiter">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TicketingCustomerEvent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicketingCustomerEvent/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Readme.md" afterDir="false" />
     </list>
@@ -92,7 +92,7 @@
       <workItem from="1659168089347" duration="65000" />
       <workItem from="1659168172573" duration="6739000" />
       <workItem from="1659178615034" duration="7860000" />
-      <workItem from="1659294236145" duration="3606000" />
+      <workItem from="1659294236145" duration="5021000" />
     </task>
     <task id="LOCAL-00001" summary="structure code">
       <created>1659168271434</created>
@@ -178,7 +178,35 @@
       <option name="project" value="LOCAL" />
       <updated>1659295638508</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="p">
+      <created>1659299974423</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659299974423</updated>
+    </task>
+    <task id="LOCAL-00014" summary="delimiter">
+      <created>1659300064222</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659300064222</updated>
+    </task>
+    <task id="LOCAL-00015" summary="delimiter">
+      <created>1659300104347</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659300104347</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Remove delimiter">
+      <created>1659300202025</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659300202025</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +283,10 @@
     <MESSAGE value="first question answered" />
     <MESSAGE value="emojis trial" />
     <MESSAGE value="Completed part I" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed part I" />
+    <MESSAGE value="p" />
+    <MESSAGE value="delimiter" />
+    <MESSAGE value="Remove delimiter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove delimiter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
