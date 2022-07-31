@@ -32,6 +32,12 @@ It will only send mail for events in John's city.
 Sure, we could use a database to store the event which makes it easier to fetch in future occurrence. We could also
 use **Parallel.ForEach** to send the mail on multiple thread based on the system processor & environment.
  
+
+
+-----------------
+
+
+
 #Part II
 
 > What should be your approach to getting the distance between the customer’s city and
