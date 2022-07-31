@@ -8,7 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="Remove delimiter">
+    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="part III completed">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TicketingCustomerEvent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicketingCustomerEvent/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Readme.md" afterDir="false" />
     </list>
@@ -92,7 +92,7 @@
       <workItem from="1659168089347" duration="65000" />
       <workItem from="1659168172573" duration="6739000" />
       <workItem from="1659178615034" duration="7860000" />
-      <workItem from="1659294236145" duration="5021000" />
+      <workItem from="1659294236145" duration="5727000" />
     </task>
     <task id="LOCAL-00001" summary="structure code">
       <created>1659168271434</created>
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659300202025</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="part III completed">
+      <created>1659305633162</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1659305633162</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +293,8 @@
     <MESSAGE value="p" />
     <MESSAGE value="delimiter" />
     <MESSAGE value="Remove delimiter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove delimiter" />
+    <MESSAGE value="part III completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="part III completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

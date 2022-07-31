@@ -5,9 +5,9 @@
 
 #Part I
 
-> What should be your approach to getting the list of events?
+> Q: What should be your approach to getting the list of events?
 
-I had to create a service class with is an implementation against abstraction to get the events
+A: I had to create a service class which is an implementation against abstraction to get the events
 and afterwards loop through them to send the email for events close to customers
 
 Click to see the [The service implementation](https://github.com/diptim01/TicketingCustomerEvent/blob/master/src/TicketingCustomerEvent/Services/Implementation/EventRepository.cs) :+1:
@@ -22,17 +22,17 @@ foreach (var @event in events)
 }
 ```
 
-> How would you call the AddToEmailmethod in order to send the events in an email?
+> Q: How would you call the AddToEmailmethod in order to send the events in an email?
 
-By looping through each events and sending to customer. We could improve the speed by multithreading the email calls
+A: By looping through each events and sending to customer. We could improve the speed by multithreading the email calls
 
-> What is the expected output if we only have the client John Smith?
+> Q: What is the expected output if we only have the client John Smith?
 
-It will only send mail for events in John's city. 
+A: It will only send mail for events in John's city. 
 
-> Do you believe there is a way to improve the code you first wrote?
+> Q: Do you believe there is a way to improve the code you first wrote?
 
-Sure, we could use a database to store the event which makes it easier to fetch in future occurrence. We could also
+A: Sure, we could use a database to store the event which makes it easier to fetch in future occurrence. We could also
 use **Parallel.ForEach** to send the mail on multiple thread based on the system processor & environment.
  
 
@@ -42,17 +42,17 @@ use **Parallel.ForEach** to send the mail on multiple thread based on the system
 
 #Part II
 
-> What should be your approach to getting the distance between the customer’s city and
+> Q: What should be your approach to getting the distance between the customer’s city and
 the other cities on the list?
 
-Create a dictionary with Events as key and distance as values. 
-Then afterwards get the distance for each events relative to the customer's city. There was an method implementation
-that was provided to calculate the distance between cities.
+A: Create a dictionary with Events as key and distance as values. 
+Then afterwards get the distance for each events relative to the customer's city. There was an method implementation 
+provided to calculate the distance between cities.
 
-> How would you get the 5 closest events and how would you send them to the client in an
+> Q: How would you get the 5 closest events and how would you send them to the client in an
 email?
 
-Since we have the events and their respective distance from the customer's city in a hashmap, 
+A: Since we have the events and their respective distance from the customer's city in a hashmap, 
 we could sort in ascending order and pick the first 5 value and call the addToEmail endpoint.
 
 
@@ -67,13 +67,13 @@ foreach (var @event in closestEvents)
 
 ```
 
-> What is the expected output if we only have the client John Smith?
+> Q: What is the expected output if we only have the client John Smith?
 
-It will only print out the 5 closest cities to the customer in ascending order.
+A: It will only print out the 5 closest cities to the customer in ascending order.
 
-> Do you believe there is a way to improve the code you first wrote?
+> Q: Do you believe there is a way to improve the code you first wrote?
 
-With the use of clean architecture to abstract the implementation logic for separation 
+A: With the use of clean architecture to abstract the implementation logic for separation 
 of concern. I could also connect to the database for further optimization as opposed
 to the choice of data structure utilized.
 
@@ -83,7 +83,45 @@ to the choice of data structure utilized.
 
 #Part III
 
-> If the GetDistance method is an API call which could fail or is too expensive, how will u
+> Q: If the GetDistance method is an API call which could fail or is too expensive, how will u
 improve the code written in 2? Write the code.
+
+A: I could cache the city-city distance calls. That will reduce the multiple number of calls to the 
+database. Since this a console system, I built a simple caching method to check from the list
+of already existed cities distance before making a call to the GetDistance endpoint.
+
+Code:
+
+-----------------
+----------------
+
+
+
+#Part IV
+
+> Q: If the GetDistance method can fail, we don't want the process to fail. What can be done?
+ Code it. (Ask clarifying questions to be clear about what is expected business-wise)
+
+A: 
+
+-----------------
+----------------
+
+#Part V
+
+> Q: 5. If we also want to sort the resulting events by other fields like price, etc. to determine which
+ones to send to the customer, how would you implement it? Code it.
+
+A:
+
+-----------------
+----------------
+
+#Part VI
+
+> Q: One of the questions is: how do you verify that what you’ve done is correct.
+
+A: 
+
 
 
