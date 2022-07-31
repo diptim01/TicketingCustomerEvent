@@ -1,4 +1,6 @@
-#Questions answered
+##Questions answered
+
+#Part I
 
 > What should be your approach to getting the list of events?
 
@@ -10,11 +12,10 @@ Click to see the [The service implementation](https://github.com/diptim01/Ticket
 ```
 var eventManager = new EventServices(new EventRepository());
 var @events = await eventManager.GetCustomerEvents(customer);
+
 foreach (var @event in events)
 {
-
-WorkingTemplateGiven.AddToEmail(customer, @event);
-
+    WorkingTemplateGiven.AddToEmail(customer, @event);
 }
 ```
 
@@ -30,5 +31,12 @@ It will only send mail for events in John's city.
 
 Sure, we could use a database to store the event which makes it easier to fetch in future occurrence. We could also
 use **Parallel.ForEach** to send the mail on multiple thread based on the system processor & environment.
+ 
+#Part II
 
+> What should be your approach to getting the distance between the customer’s city and
+the other cities on the list?
 
+Create a dictionary with Events as key and distance as values. 
+Then afterwards get the distance for each events relative to the customer's city. Since we have it all in 
+a hashmap, we could sort by ascending order 
