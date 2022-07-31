@@ -1,5 +1,9 @@
 ##Questions answered
 
+-----------------
+----------------
+-------------------
+
 #Part I
 
 > What should be your approach to getting the list of events?
@@ -35,6 +39,8 @@ use **Parallel.ForEach** to send the mail on multiple thread based on the system
 
 
 -----------------
+----------------
+-------------------
 
 
 
