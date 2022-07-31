@@ -2,7 +2,6 @@
 
 -----------------
 ----------------
--------------------
 
 #Part I
 
@@ -40,9 +39,6 @@ use **Parallel.ForEach** to send the mail on multiple thread based on the system
 
 -----------------
 ----------------
--------------------
-
-
 
 #Part II
 
