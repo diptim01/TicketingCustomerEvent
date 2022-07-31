@@ -33,7 +33,7 @@ A: It will only send mail for events in John's city.
 > Q: Do you believe there is a way to improve the code you first wrote?
 
 A: Sure, we could use a database to store the event which makes it easier to fetch in future occurrence. We could also
-use **Parallel.ForEach** to send the mail on multiple thread based on the system processor & environment.
+use `Parallel.ForEach` to send the mail on multiple thread based on the system processor & environment.
  
 
 
@@ -88,7 +88,7 @@ improve the code written in 2? Write the code.
 
 A: I could cache the city-city distance calls. That will reduce the multiple number of calls to the 
 database. Since this a console system, I built a simple caching method to check from the list
-of already existed cities distance before making a call to the GetDistance endpoint.
+of already existed cities distance before making a call to the `GetDistance` endpoint.
 
 Code:
 

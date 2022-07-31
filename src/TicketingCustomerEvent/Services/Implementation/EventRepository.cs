@@ -34,8 +34,12 @@ namespace TicketingCustomerEvent.Services.Implementation
 
             foreach (var @event in _events)
             {
-                if (@event.City != null)
-                    eventDistance.Add(@event, WorkingTemplateGiven.GetDistance(customer.City, @event.City));
+                if (@event.City == null || customer.City == null) continue;
+                
+                var dist = new CacheSystem<string>().Get(UtilManager.GetKey(customer.City, @event.City),
+                    () => WorkingTemplateGiven.GetDistance(customer.City, @event.City));
+
+                eventDistance.Add(@event, dist);
             }
 
             var fiveClosestEvents = eventDistance.OrderBy(x => x.Value).Take(numbers);
