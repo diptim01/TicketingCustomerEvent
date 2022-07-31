@@ -19,7 +19,7 @@ namespace TicketingCustomerEvent.Services
             _maxCachingTime = maxCachingTime;
         }
         
-        public int Get(TKey key, Func<int> createValue)
+        public int Get(TKey key, Func<int> fetchDistance)
         {
             CacheEvent cacheItem;
             
@@ -27,9 +27,9 @@ namespace TicketingCustomerEvent.Services
                 return cacheItem.CityDistance;
             }
             
-            var value = createValue();
-            _cache[key] = new CacheEvent(value);
-            return value;
+            var cityDistance = fetchDistance();
+            _cache[key] = new CacheEvent(cityDistance);
+            return cityDistance;
         }
     }
 }

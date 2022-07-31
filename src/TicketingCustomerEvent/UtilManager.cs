@@ -22,8 +22,8 @@ namespace TicketingCustomerEvent
             char[] characters = fullString.ToCharArray();
             Array.Sort(characters);
             
-            var ssa =  new string(characters);
-            return ssa;
+            var uniqueKey =  new string(characters);
+            return uniqueKey;
         }
     }
 }

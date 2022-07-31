@@ -87,10 +87,21 @@ to the choice of data structure utilized.
 improve the code written in 2? Write the code.
 
 A: I could cache the city-city distance calls. That will reduce the multiple number of calls to the 
-database. Since this a console system, I built a simple caching method to check from the list
-of already existed cities distance before making a call to the `GetDistance` endpoint.
+database or API. Since this a console system, I built a simple caching method to check from the list
+of already checked existing cities distance before making a call to the `GetDistance` endpoint.
 
 Code:
+Click to see the [Cache System](https://github.com/diptim01/TicketingCustomerEvent/blob/master/src/TicketingCustomerEvent/Services/CacheSystem.cs)
+
+```
+if (@event.City == null || customer.City == null) continue;
+                
+var distance = new CacheSystem<string>().Get(UtilManager.GetKey(customer.City, @event.City),
+() => WorkingTemplateGiven.GetDistance(customer.City, @event.City));
+
+eventDistance.Add(@event, distance);
+```
+
 
 -----------------
 :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash:

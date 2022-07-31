@@ -36,10 +36,10 @@ namespace TicketingCustomerEvent.Services.Implementation
             {
                 if (@event.City == null || customer.City == null) continue;
                 
-                var dist = new CacheSystem<string>().Get(UtilManager.GetKey(customer.City, @event.City),
+                var distance = new CacheSystem<string>().Get(UtilManager.GetKey(customer.City, @event.City),
                     () => WorkingTemplateGiven.GetDistance(customer.City, @event.City));
 
-                eventDistance.Add(@event, dist);
+                eventDistance.Add(@event, distance);
             }
 
             var fiveClosestEvents = eventDistance.OrderBy(x => x.Value).Take(numbers);

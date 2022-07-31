@@ -8,21 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="emoji2">
-      <change afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Models/CacheEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/CacheSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TicketingCustomerEvent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicketingCustomerEvent/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="Implemented the caching system">
       <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Services/CacheSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/CacheSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Services/Implementation/EventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/Implementation/EventRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/TicketingCustomerEvent.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/TicketingCustomerEvent.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/UtilManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/UtilManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/TicketingCustomerEvent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/TicketingCustomerEvent.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/TicketingCustomerEvent.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/TicketingCustomerEvent.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/ref/TicketingCustomerEvent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/ref/TicketingCustomerEvent.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/ref/TicketingCustomerEvent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/ref/TicketingCustomerEvent.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +24,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3839de00d95942b3b2caee2e5f4d441f9e4e00/253/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/59b684cc43694ca7bdedde28cb02494d81400/42/OrderedEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2Cef8vcSVc4HGLxTCUFukNmjeDH" />
@@ -104,7 +96,7 @@
       <workItem from="1659168089347" duration="65000" />
       <workItem from="1659168172573" duration="6739000" />
       <workItem from="1659178615034" duration="7860000" />
-      <workItem from="1659294236145" duration="10580000" />
+      <workItem from="1659294236145" duration="11162000" />
     </task>
     <task id="LOCAL-00001" summary="structure code">
       <created>1659168271434</created>
@@ -246,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659306520596</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Implemented the caching system">
+      <created>1659311460702</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659311460702</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +329,8 @@
     <MESSAGE value="Formatting adjusted" />
     <MESSAGE value="emojis" />
     <MESSAGE value="emoji2" />
-    <option name="LAST_COMMIT_MESSAGE" value="emoji2" />
+    <MESSAGE value="Implemented the caching system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the caching system" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -405,12 +405,12 @@
           <line>44</line>
           <properties documentPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/Implementation/EventRepository.cs" initialLine="40" containingFunctionPresentation="method 'GetClosestEventsInCities'">
             <startOffsets>
-              <option value="1508" />
-              <option value="1559" />
+              <option value="1516" />
+              <option value="1567" />
             </startOffsets>
             <endOffsets>
-              <option value="1582" />
-              <option value="1566" />
+              <option value="1590" />
+              <option value="1574" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
@@ -433,10 +433,10 @@
           <line>22</line>
           <properties documentPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/CacheSystem.cs" initialLine="22" containingFunctionPresentation="method 'Get'">
             <startOffsets>
-              <option value="596" />
+              <option value="598" />
             </startOffsets>
             <endOffsets>
-              <option value="597" />
+              <option value="599" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
