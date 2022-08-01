@@ -169,7 +169,7 @@ Click to see [Sorting Implementation for Price](https://github.com/diptim01/Tick
 
 > Q: One of the questions is: how do you verify that what you’ve done is correct.
 
-A: I unit tested the code base to be sure the method are doing what they are suppose to do.
+A: I unit tested the code base to be sure the method are doing what they are suppose to do. Furthermore, mocked the event repository to get results for the services
 
 Click to see the [Unit test](https://github.com/diptim01/TicketingCustomerEvent/tree/master/test/TicketingCustomerEvent.Test.Unit)
 
