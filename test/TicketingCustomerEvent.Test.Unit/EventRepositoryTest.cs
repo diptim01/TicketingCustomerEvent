@@ -51,7 +51,8 @@ namespace TicketingCustomerEvent.Unit
             var @event = new Event
             {
                 Name = "Metallica",
-                City = "New York"
+                City = "New York",
+                Date = new DateTime(2022, 7, 31)
             };
 
             var result = await _sut.FindEventsInCustomerCity(customer);
