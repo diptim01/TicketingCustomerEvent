@@ -63,31 +63,5 @@ namespace TicketingCustomerEvent.Unit
             enumerable.Should().HaveCount(1);
         }
         
-        // [Fact]
-        // public async Task GetClosestEventsInCities_ShouldReturnFiveClosestEvents_WhenCustomerCityExist()
-        // {
-        //     var customer = new Customer
-        //     {
-        //         Name = "Mr Fake",
-        //         City = "United States"
-        //     };
-        //     
-        //     var @event = new Event
-        //     {
-        //         Name = "Phantom of the Opera",
-        //         City = "New York"
-        //     };
-        //
-        //     var expectedEvents = new[] {@event};
-        //
-        //     _eventRepository.GetClosestEventsInCities(customer).Returns(expectedEvents);
-        //
-        //     var result = await _sut.GetCustomerEvents(customer);
-        //
-        //     var enumerable = result as Event[] ?? result.ToArray();
-        //     
-        //     enumerable.Should().ContainEquivalentOf(@event);
-        //     enumerable.Should().HaveCount(1);
-        // }
     }
 }
