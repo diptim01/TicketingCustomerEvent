@@ -2,9 +2,9 @@ using System;
 
 namespace TicketingCustomerEvent.Models
 {
-    public readonly struct CacheEvent
+    public readonly struct CacheCityDistance
     {
-        public CacheEvent(int cityDistance)
+        public CacheCityDistance(int cityDistance)
             : this()
         {
             CityDistance = cityDistance;

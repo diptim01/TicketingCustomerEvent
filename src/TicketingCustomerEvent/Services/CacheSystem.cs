@@ -6,7 +6,7 @@ namespace TicketingCustomerEvent.Services
 {
     public class CacheSystem<TKey>
     {
-        private static readonly Dictionary<TKey, CacheEvent> _cache = new ();
+        private static readonly Dictionary<TKey, CacheCityDistance> _cache = new ();
         private readonly TimeSpan _maxCachingTime;
         
         public CacheSystem()
@@ -21,7 +21,7 @@ namespace TicketingCustomerEvent.Services
         
         public int Get(TKey key, Func<int> fetchDistance)
         {
-            CacheEvent cacheItem;
+            CacheCityDistance cacheItem;
             
             if (_cache.TryGetValue(key, out cacheItem) && (DateTime.Now - cacheItem.CacheTime) <= _maxCachingTime) {
                 return cacheItem.CityDistance;
@@ -31,7 +31,7 @@ namespace TicketingCustomerEvent.Services
 
             if (cityDistance < 0) return cityDistance;
             
-            _cache[key] = new CacheEvent(cityDistance);
+            _cache[key] = new CacheCityDistance(cityDistance);
             return cityDistance;
         }
     }

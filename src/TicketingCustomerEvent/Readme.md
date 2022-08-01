@@ -77,6 +77,9 @@ A: With the use of clean architecture to abstract the implementation logic for s
 of concern. I could also connect to the database for further optimization as opposed
 to the choice of data structure utilized.
 
+> Q:  it should trigger the events closest to client birthday (assume any birthdate of your choice)
+
+A:
 
 -----------------
 :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash:
@@ -138,7 +141,18 @@ Likewise, I could exempt the process from adding the event for the user and also
 > Q: 5. If we also want to sort the resulting events by other fields like price, etc. to determine which
 ones to send to the customer, how would you implement it? Code it.
 
-A: 
+A: Make a call to the `GetPrice` endpoint provided. I made an extension method for the orderBy in which
+we could supply the order parameter and if it ascending or descending.
+
+Click to see [Sorting Implementation for Price](https://github.com/diptim01/TicketingCustomerEvent/blob/master/src/TicketingCustomerEvent/UtilManager.cs) & [Event model](https://github.com/diptim01/TicketingCustomerEvent/blob/master/src/TicketingCustomerEvent/Models/Event.cs)
+```
+ public static IEnumerable<Event> SortEventsByParams(this IEnumerable<Event> events, string sortValue,
+            bool isAscending)
+{
+    return isAscending ? events.OrderBy(s => s.GetType().GetProperty(sortValue)?.GetValue(s)) : 
+       events.OrderByDescending(s => s.GetType().GetProperty(sortValue)?.GetValue(s));
+}
+```
 
 -----------------
 :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash:
