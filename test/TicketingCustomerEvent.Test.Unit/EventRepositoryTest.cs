@@ -23,7 +23,21 @@ namespace TicketingCustomerEvent.Unit
             var customer = new Customer
             {
                 Name = "Mr Fake",
-                City = "NewYork"
+                City = "NewYorkI"
+            };
+
+            var result = await _sut.FindEventsInCustomerCity(customer);
+
+            result.Should().BeEmpty();
+        }
+        
+        [Fact]
+        public async Task FindEventsInCustomerCity_ShouldReturnEmpty_WhenCityIsNull()
+        {
+            var customer = new Customer
+            {
+                Name = "Mr Fake",
+                City = null
             };
 
             var result = await _sut.FindEventsInCustomerCity(customer);
