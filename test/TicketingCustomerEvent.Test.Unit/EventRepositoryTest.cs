@@ -72,7 +72,7 @@ namespace TicketingCustomerEvent.Unit
             {
                 Name = "Metallica",
                 City = "New York",
-                Date = new DateTime(2022, 4, 30)
+                Date = new DateTime(2022, 7, 31)
             };
 
             var result = await _sut.GetClosestEventsInCities(customer, 5);
