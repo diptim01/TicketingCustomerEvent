@@ -51,8 +51,8 @@ namespace TicketingCustomerEvent.Services.Implementation
 
         public Task<IEnumerable<Event>> GetClosestBirthdayWithEvents(Customer customer, int numbers)
         {
-            var closeBirthdays = _events.OrderBy(x => Math.Abs((x.Date - customer.Birthday).Ticks)).AsEnumerable();
-            return Task.FromResult(closeBirthdays);
+            var closeBirthdays = _events.Where(x => x.Date >= customer.Birthday).OrderBy(x=>x.Date); 
+            return Task.FromResult(closeBirthdays.Take(numbers));
         }
     }
 }

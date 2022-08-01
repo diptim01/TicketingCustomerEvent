@@ -72,7 +72,7 @@ namespace TicketingCustomerEvent.Unit
             {
                 Name = "Metallica",
                 City = "New York",
-                Date = new DateTime(2022, 6, 18)
+                Date = new DateTime(2022, 4, 30)
             };
 
             var result = await _sut.GetClosestEventsInCities(customer, 5);
@@ -89,7 +89,7 @@ namespace TicketingCustomerEvent.Unit
         }
         
         [Fact]
-        public async Task GetClosestEventsWithBirthday_ShouldReturnClosestBirthdayEvents_WhenCustomerCityExist()
+        public async Task GetClosestEventsWithBirthday_ShouldReturnClosestBirthdayEvents_WhenCustomerBirthdayExist()
         {
             var customer = new Customer
             {
@@ -100,7 +100,7 @@ namespace TicketingCustomerEvent.Unit
 
             var result = await _sut.GetClosestBirthdayWithEvents(customer, 5);
 
-            result.Should().Contain(x => x.Date <= customer.Birthday);
+            result.Should().NotContain(x => x.Date < customer.Birthday);
         }
     }
 }

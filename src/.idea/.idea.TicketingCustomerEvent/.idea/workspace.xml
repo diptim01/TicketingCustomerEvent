@@ -8,16 +8,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="IV completed">
+    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="wrap up">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TicketingCustomerEvent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicketingCustomerEvent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Models/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Models/Event.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Services/Implementation/EventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/Implementation/EventRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/TicketingCustomerEvent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/TicketingCustomerEvent.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/TicketingCustomerEvent.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/TicketingCustomerEvent.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/ref/TicketingCustomerEvent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/bin/Debug/net6.0/ref/TicketingCustomerEvent.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/TicketingCustomerEvent.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/ref/TicketingCustomerEvent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/obj/Debug/net6.0/ref/TicketingCustomerEvent.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventRepositoryTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventRepositoryTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.Test.Unit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.Test.Unit.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.Test.Unit.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.Test.Unit.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/bin/Debug/net6.0/TicketingCustomerEvent.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/TicketingCustomerEvent.Test.Unit.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +38,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/Oladipo.Alokan/RiderProjects/TicketingCustomerEvent/src/TicketingCustomerEvent/Services/CacheSystem.cs" root0="SKIP_HIGHLIGHTING" />
@@ -102,7 +122,7 @@
       <workItem from="1659168089347" duration="65000" />
       <workItem from="1659168172573" duration="6739000" />
       <workItem from="1659178615034" duration="7860000" />
-      <workItem from="1659294236145" duration="12339000" />
+      <workItem from="1659294236145" duration="14621000" />
     </task>
     <task id="LOCAL-00001" summary="structure code">
       <created>1659168271434</created>
@@ -265,7 +285,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659312739344</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="renaming cache from event to city distance">
+      <created>1659313218248</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659313218248</updated>
+    </task>
+    <task id="LOCAL-00025" summary="wrap up">
+      <created>1659313316470</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1659313316470</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,33 +314,33 @@
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 32% 117/171" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 23% 126/163" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 32% 117/171" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 32% 117/171" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 23% 126/163" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 23% 126/163" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 32% 117/171" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 32% 117/171" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="TicketingCustomerEvent 32% 117/171" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 23% 126/163" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 23% 126/163" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 23% 126/163" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 32% 117/171" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 32% 117/171" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="TicketingCustomerEvent 32% 117/171" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Program 0% 39/39" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 23% 126/163" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 23% 126/163" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 23% 126/163" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Program 0% 40/40" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 32% 117/171" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 32% 117/171" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="TicketingCustomerEvent 32% 117/171" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Program 0% 39/39" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="&lt;Main&gt;$(string[]) 0% 39/39" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 23% 126/163" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 23% 126/163" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TicketingCustomerEvent 23% 126/163" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Program 0% 40/40" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="&lt;Main&gt;$(string[]) 0% 40/40" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />
@@ -352,7 +386,9 @@
     <MESSAGE value="Implemented the caching system" />
     <MESSAGE value="Cache Key" />
     <MESSAGE value="IV completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="IV completed" />
+    <MESSAGE value="renaming cache from event to city distance" />
+    <MESSAGE value="wrap up" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrap up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -438,30 +474,17 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TicketingCustomerEvent/UtilManager.cs</url>
-          <line>18</line>
-          <properties documentPath="$PROJECT_DIR$/TicketingCustomerEvent/UtilManager.cs" initialLine="17" containingFunctionPresentation="method 'GetKey'">
+          <url>file://$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventRepositoryTest.cs</url>
+          <line>63</line>
+          <properties documentPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventRepositoryTest.cs" initialLine="63" containingFunctionPresentation="method 'GetClosestEventsInCities_ShouldReturnFiveClosestEvents_WhenCustomerCityExist'">
             <startOffsets>
-              <option value="642" />
+              <option value="1778" />
             </startOffsets>
             <endOffsets>
-              <option value="643" />
+              <option value="1779" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TicketingCustomerEvent/Services/CacheSystem.cs</url>
-          <line>22</line>
-          <properties documentPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/CacheSystem.cs" initialLine="22" containingFunctionPresentation="method 'Get'">
-            <startOffsets>
-              <option value="598" />
-            </startOffsets>
-            <endOffsets>
-              <option value="599" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -15,7 +15,7 @@ Customer customer = new()
 {
     Name = "Mr Fake",
     City = "New York",
-    Birthday = new DateTime(2022, 6, 18)
+    Birthday = new DateTime(2022, 8, 1)
 };
     
     
@@ -49,8 +49,10 @@ foreach (var @event in closestEvents.SortEventsByParams("Price", true))
     
 }
 
-var birthdaysEvents = await eventManager.RetrieveClosestEventsWithBirthdays(customer, 5);
-foreach (var @event in closestEvents.SortEventsByParams("Price", true))
+Console.WriteLine("******Closest by birthday date*********");
+
+var birthdaysEvents = await eventManager.RetrieveClosestEventsWithBirthdays(customer, 15);
+foreach (var @event in birthdaysEvents)
 {
     //Task 2
     Console.Write("{0} - ", @event.Date);

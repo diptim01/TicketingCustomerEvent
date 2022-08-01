@@ -79,7 +79,11 @@ to the choice of data structure utilized.
 
 > Q:  it should trigger the events closest to client birthday (assume any birthdate of your choice)
 
-A:
+A: Select only dates that are above or equal to the customer birthday date.
+
+```
+ var closeBirthdays = _events.Where(x => x.Date >= customer.Birthday).OrderBy(x=>x.Date); 
+```
 
 -----------------
 :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash:
@@ -132,6 +136,10 @@ make the distance negative value (int.MinValue) so it won't appear on customer e
 to read a negative distance value.
 
 Likewise, I could exempt the process from adding the event for the user and also the cache when it is negative distance - {error value}
+
+code: 
+[Get Distance endpoint](https://github.com/diptim01/TicketingCustomerEvent/blob/master/src/TicketingCustomerEvent/Services/WorkingTemplateGiven.cs)
+& other implementations are in the eventRepository and Cache sytem
 
 -----------------
 :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash:
