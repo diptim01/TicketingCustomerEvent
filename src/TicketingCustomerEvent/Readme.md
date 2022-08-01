@@ -100,6 +100,17 @@ var distance = new CacheSystem<string>().Get(UtilManager.GetKey(customer.City, @
 () => WorkingTemplateGiven.GetDistance(customer.City, @event.City));
 
 eventDistance.Add(@event, distance);
+
+public static string GetKey(string city1, string city2)
+{
+    var fullString = city1.ToLower() + city2.ToLower();
+    
+    char[] characters = fullString.ToCharArray();
+    Array.Sort(characters);
+    
+    var uniqueKey =  new string(characters);
+    return uniqueKey;
+}
 ```
 
 
@@ -113,7 +124,11 @@ eventDistance.Add(@event, distance);
 > Q: If the GetDistance method can fail, we don't want the process to fail. What can be done?
  Code it. (Ask clarifying questions to be clear about what is expected business-wise)
 
-A: 
+A: For exceptions, I will have it in a try catch block, (`GetDistance` endpoint), log the error, and 
+make the distance negative value (int.MinValue) so it won't appear on customer events. It is not suppose
+to read a negative distance value.
+
+Likewise, I could exempt the process from adding the event for the user and also the cache when it is negative distance - {error value}
 
 -----------------
 :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash:
@@ -123,7 +138,7 @@ A:
 > Q: 5. If we also want to sort the resulting events by other fields like price, etc. to determine which
 ones to send to the customer, how would you implement it? Code it.
 
-A:
+A: 
 
 -----------------
 :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash: :wavy_dash:

@@ -21,10 +21,10 @@ namespace TicketingCustomerEvent.Services.Implementation
         {
             if (customer == null)
                 throw new ArgumentException("Customer cannot be null");
-            
+
             var retrievedEvents = _events.Where(x =>
                 x.City != null && x.City.Equals(customer.City, StringComparison.OrdinalIgnoreCase));
-            
+
             return Task.FromResult(retrievedEvents);
         }
 
@@ -35,10 +35,12 @@ namespace TicketingCustomerEvent.Services.Implementation
             foreach (var @event in _events)
             {
                 if (@event.City == null || customer.City == null) continue;
-                
+
                 var distance = new CacheSystem<string>().Get(UtilManager.GetKey(customer.City, @event.City),
                     () => WorkingTemplateGiven.GetDistance(customer.City, @event.City));
 
+                if (distance < 0) continue;
+                
                 eventDistance.Add(@event, distance);
             }
 

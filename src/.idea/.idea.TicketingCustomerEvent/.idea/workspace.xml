@@ -8,11 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="Implemented the caching system">
+    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="Cache Key">
       <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Services/CacheSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/CacheSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/Services/Implementation/EventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/Services/Implementation/EventRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketingCustomerEvent/UtilManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicketingCustomerEvent/UtilManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/Oladipo.Alokan/RiderProjects/TicketingCustomerEvent/src/TicketingCustomerEvent/Services/CacheSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3839de00d95942b3b2caee2e5f4d441f9e4e00/253/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/59b684cc43694ca7bdedde28cb02494d81400/42/OrderedEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
@@ -96,7 +94,7 @@
       <workItem from="1659168089347" duration="65000" />
       <workItem from="1659168172573" duration="6739000" />
       <workItem from="1659178615034" duration="7860000" />
-      <workItem from="1659294236145" duration="11162000" />
+      <workItem from="1659294236145" duration="11535000" />
     </task>
     <task id="LOCAL-00001" summary="structure code">
       <created>1659168271434</created>
@@ -245,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659311460702</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Cache Key">
+      <created>1659311896944</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659311896944</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +335,8 @@
     <MESSAGE value="emojis" />
     <MESSAGE value="emoji2" />
     <MESSAGE value="Implemented the caching system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the caching system" />
+    <MESSAGE value="Cache Key" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cache Key" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

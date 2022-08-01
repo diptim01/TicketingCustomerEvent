@@ -28,6 +28,9 @@ namespace TicketingCustomerEvent.Services
             }
             
             var cityDistance = fetchDistance();
+
+            if (cityDistance < 0) return cityDistance;
+            
             _cache[key] = new CacheEvent(cityDistance);
             return cityDistance;
         }
