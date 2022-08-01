@@ -8,7 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="Mock imp" />
+    <list default="true" id="7b6e11fc-65a9-4c26-978f-e76c8e765632" name="Changes" comment="fixed date issue in unit test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,8 +27,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/Oladipo.Alokan/RiderProjects/TicketingCustomerEvent/src/TicketingCustomerEvent/Services/CacheSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/Oladipo.Alokan/RiderProjects/TicketingCustomerEvent/test/TicketingCustomerEvent.Test.Unit/EventRepositoryTest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3839de00d95942b3b2caee2e5f4d441f9e4e00/253/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/Oladipo.Alokan/RiderProjects/TicketingCustomerEvent/test/TicketingCustomerEvent.Test.Unit/EventRepositoryTest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/Oladipo.Alokan/RiderProjects/TicketingCustomerEvent/src/TicketingCustomerEvent/Models/Event.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/59b684cc43694ca7bdedde28cb02494d81400/42/OrderedEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
@@ -101,7 +103,7 @@
       <workItem from="1659168089347" duration="65000" />
       <workItem from="1659168172573" duration="6739000" />
       <workItem from="1659178615034" duration="7860000" />
-      <workItem from="1659294236145" duration="14917000" />
+      <workItem from="1659294236145" duration="15337000" />
     </task>
     <task id="LOCAL-00001" summary="structure code">
       <created>1659168271434</created>
@@ -299,7 +301,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659315675884</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Removed commented out code">
+      <created>1659315794802</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1659315794802</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fixed the unit test">
+      <created>1659315912686</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1659315912686</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fixed date issue in unit test">
+      <created>1659316101640</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1659316101640</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,9 +387,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="added exluded file" />
-    <MESSAGE value="FindEventsInCityTest included" />
-    <MESSAGE value="dll missing" />
     <MESSAGE value="Complete repository and services test" />
     <MESSAGE value="readme added" />
     <MESSAGE value="Date checks with events" />
@@ -389,7 +409,10 @@
     <MESSAGE value="All done" />
     <MESSAGE value="ccvrage" />
     <MESSAGE value="Mock imp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mock imp" />
+    <MESSAGE value="Removed commented out code" />
+    <MESSAGE value="fixed the unit test" />
+    <MESSAGE value="fixed date issue in unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed date issue in unit test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -476,16 +499,29 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventRepositoryTest.cs</url>
-          <line>63</line>
+          <line>64</line>
           <properties documentPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventRepositoryTest.cs" initialLine="63" containingFunctionPresentation="method 'GetClosestEventsInCities_ShouldReturnFiveClosestEvents_WhenCustomerCityExist'">
             <startOffsets>
-              <option value="1778" />
+              <option value="1828" />
             </startOffsets>
             <endOffsets>
-              <option value="1779" />
+              <option value="1829" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventRepositoryTest.cs</url>
+          <line>44</line>
+          <properties documentPath="$PROJECT_DIR$/../test/TicketingCustomerEvent.Test.Unit/EventRepositoryTest.cs" initialLine="44" containingFunctionPresentation="method 'FindEventsInCustomerCity_ShouldReturnEvents_WhenCityExist'">
+            <startOffsets>
+              <option value="1240" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1364" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
